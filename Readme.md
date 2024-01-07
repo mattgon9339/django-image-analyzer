@@ -18,31 +18,29 @@ git clone https://github.com/mattgon9339/django-image-analyzer.git
 cd django-image-analyzer
 ```
 
-- Install virtual environment
-  ``python -m venv venv``
+**Install virtual environment**
+`python -m venv venv`
 
+**Activate the virtual environment**
 
-- Activate the virtual environment (On Windows)
-  ``venv\Scripts\activate``
+- (On Windows)
+   `venv\Scripts\activate`
 
+- (On Unix or MacOS)
+  `source venv/bin/activate`
 
-- Activate the virtual environment (On Unix or MacOS)
-  ``source venv/bin/activate``
+**Install project dependencies**
+`pip install -r requirements.txt`
 
-
-- Install project dependencies
-  ``pip install -r requirements.txt``
-
-
-- Apply database migrations
-  ``python manage.py migrate``
+**Apply database migrations**
+`python manage.py migrate`
 
 ## Starting the Project
 
 Run the Django development server
 
 
-``python manage.py runserver``
+`python manage.py runserver`
 
 
 Access the project by visiting http://127.0.0.1:8000/ in your web browser.
@@ -52,4 +50,4 @@ Access the project by visiting http://127.0.0.1:8000/ in your web browser.
 Execute the following command to run tests
 
 
-``python manage.py test``
+`python manage.py test`
